@@ -56,7 +56,9 @@ button {
 .minus {
   color: red;
 }
-
+.list li {
+  align-items: center;
+}
 .list {
   list-style-type: none;
   padding: 0;
@@ -79,3 +81,12 @@ button {
   border-color: red;
 }
 
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 3px 7px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 4px;
+}
